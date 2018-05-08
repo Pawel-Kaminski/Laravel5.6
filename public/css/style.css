@@ -1,0 +1,106 @@
+html, body {
+    background-color: #c1bcff;
+    margin: auto;
+    max-width: 1280px;
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+}
+
+#banner > img {
+    float: left;
+    margin-right: 10px;
+    height: 230px;
+}
+
+#header {
+    height: 150px;
+    background-color: #8a85ce;
+    font-size: 25pt;
+    color: white;
+    font-family: impact;
+    text-align: center;
+}
+
+#menu {
+    height: 40px;
+    background-color: #c1bcff;
+    padding-top: 10px;
+    margin: auto;
+    max-width: 1024px;
+}
+
+#menu > a {
+    font-size: 20pt;
+    font-family: arial;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#banner {
+    height: 230px;
+    background-color: #8a85ce;
+    font-size: 20pt;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#banner-text {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#content {
+    height: 600px;
+    max-width: 1024px;
+    margin: auto;
+    text-align: justify;
+    font-size: 16pt;
+    padding-top: 20px;
+    max-height: 200px;
+}
+
+#headline {
+    padding-top: 60px;
+}
+
+#pricing, #pricing td, #pricing th {
+    border: 1px black solid;
+    border-color: #8a85ce;
+    border-collapse: collapse;
+    padding: 6px;
+    background-color:#ebe0f0;
+    min-width: 5cm;
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    margin-top: 50px;
+}
+
+form > input {
+    width: 500px;
+    height: 25px;
+}
+
+#email {
+    width: 300px;
+    height: 23px;
+    background-color: #ebe0f0;
+}
+
+#message {
+    width: 500px;
+    height: 150px;
+    background-color: #ebe0f0;
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+}
